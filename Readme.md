@@ -7,10 +7,11 @@ Recommended PHP Version 5.6, 7.4
 # Admin Login Details
 
 Username: admin
+
 Password: suhail
 
 # How to setup ? (Windows)
-'''
+```
 
 1. Download, Install & Run - XAMPP from Official Site
 2. Turn on Apache (front-end) and MYSQL (back-end)
@@ -26,8 +27,8 @@ Password: suhail
   - localhost/V-GYM
 9. This will open up web page asking for logins.
 
+```
 
-'''
 
-*Developed By students of VIDYALANKAR INSTITUTE OF TECHNOLOGY
+* Developed By students of VIDYALANKAR INSTITUTE OF TECHNOLOGY
 
