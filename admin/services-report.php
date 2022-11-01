@@ -10,11 +10,11 @@ include "dbcon.php";
 $qry="SELECT services, count(*) as number FROM members GROUP BY services";
 $result=mysqli_query($con,$qry);
 ?>
-<!-- Visit codeastro.com for more projects -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Gym System Admin</title>
+<title>V-GYM Admin</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="../css/bootstrap.min.css" />
@@ -26,6 +26,8 @@ $result=mysqli_query($con,$qry);
 <link href="../font-awesome/css/all.css" rel="stylesheet" />
 <link rel="stylesheet" href="../css/jquery.gritter.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+<link rel = "icon" href =  "img/logo.png" type = "image/x-icon"> 
+
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>  
            <script type="text/javascript">  
            google.charts.load('current', {'packages':['corechart']});  
@@ -55,7 +57,7 @@ $result=mysqli_query($con,$qry);
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Perfect Gym Admin</a></h1>
+  <h1><a href="dashboard.html">V-GYM Admin</a></h1>
 </div>
 <!--close-Header-part--> 
 
@@ -100,7 +102,7 @@ $result=mysqli_query($con,$qry);
 <!--Footer-part-->
 
 <div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
+  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By 🫰</a> </div>
 </div>
 
 <style>

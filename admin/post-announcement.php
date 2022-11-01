@@ -5,10 +5,10 @@ if(!isset($_SESSION['user_id'])){
 header('location:../index.php');	
 }
 ?>
-<!-- Visit codeastro.com for more projects -->
+
 <html lang="en">
 <head>
-<title>Gym System Admin</title>
+<title>V-GYM Admin</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="../css/bootstrap.min.css" />
@@ -20,17 +20,19 @@ header('location:../index.php');
 <link href="../font-awesome/css/all.css" rel="stylesheet" />
 <link rel="stylesheet" href="../css/jquery.gritter.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+<link rel = "icon" href =  "img/logo.png" type = "image/x-icon"> 
 </head>
 <body>
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Perfect Gym Admin</a></h1>
+  <h1><a href="dashboard.html">V-GYM Admin</a></h1>
 </div>
 <!--close-Header-part--> 
 
 
-<!--top-Header-menu--><!-- Visit codeastro.com for more projects -->
+<!--top-Header-menu-->
+
 <?php include 'includes/topheader.php'?>
 <!--close-top-Header-menu-->
 <!--start-top-serch-->
@@ -104,7 +106,7 @@ if(!$result){
 <!--Footer-part-->
 
 <div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
+  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By 🫰</a> </div>
 </div>
 
 <style>

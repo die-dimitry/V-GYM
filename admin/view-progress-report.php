@@ -5,11 +5,11 @@ if(!isset($_SESSION['user_id'])){
 header('location:../index.php');	
 }
 ?>
-<!-- Visit codeastro.com for more projects -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Gym System Admin</title>
+<title>V-GYM Admin</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="../css/bootstrap.min.css" />
@@ -27,7 +27,7 @@ header('location:../index.php');
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Perfect Gym Admin</a></h1>
+  <h1><a href="dashboard.html">V-GYM Admin</a></h1>
 </div>
 <!--close-Header-part--> 
 
@@ -69,17 +69,17 @@ header('location:../index.php');
                 <table class="">
                   <tbody>
                   <tr>
-                      <td><h4>Perfect GYM Club</h4></td>
+                      <td><h4>V-GYM Club</h4></td>
                     </tr>
                     <tr>
-                      <td>5021  Wetzel Lane, Williamsburg</td>
+                      <td>Wadala, Mumbai</td>
                     </tr>
                     
                     <tr>
                       <td>Tel: 231-267-6011</td>
                     </tr>
                     <tr>
-                      <td >Email: support@perfectgym.com</td>
+                      <td >Email: support@vgym.com</td>
                     </tr>
                   </tbody>
                 </table>
@@ -148,7 +148,7 @@ header('location:../index.php');
 <!--Footer-part-->
 
 <div class="row-fluid">
-  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By Naseeb Bajracharya</a> </div>
+  <div id="footer" class="span12"> <?php echo date("Y");?> &copy; Developed By 🫰</a> </div>
 </div>
 
 <style>
