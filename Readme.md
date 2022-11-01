@@ -10,7 +10,8 @@ Username: admin
 Password: suhail
 
 # How to setup ? (Windows)
-''
+'''
+
 1. Download, Install & Run - XAMPP from Official Site
 2. Turn on Apache (front-end) and MYSQL (back-end)
 3. Now download this github repository 
@@ -24,7 +25,9 @@ Password: suhail
 8. Now open up new tab in your browser and type
   - localhost/V-GYM
 9. This will open up web page asking for logins.
-''
 
-Developed By students of VIDYALANKAR INSTITUTE OF TECHNOLOGY
+
+'''
+
+*Developed By students of VIDYALANKAR INSTITUTE OF TECHNOLOGY
 
